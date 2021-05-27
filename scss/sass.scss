@@ -1,0 +1,68 @@
+// defining varibles
+$text-weights: 600;
+$header-fonts: 'Roboto', sans-serif;
+$text-fonts: 'Raleway', sans-serif;
+$uni-font-size: 18px;
+$uni-text-color: #fff;
+$bg-color: #fff;
+$label-spacing: 10px;
+
+body {
+  background-color: $bg-color;
+  font-size: $uni-font-size;
+  font-family: $text-fonts;
+  font-weight: $text-weights;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $header-fonts;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+#form-wrapper {
+  color: $uni-text-color;
+  background-image: linear-gradient(#ff284d, #350035);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+  border: 1px solid transparent;
+  box-shadow: 2px 2px 18px;
+  border-radius: .25rem;
+  margin: 1rem;
+}
+
+#email-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: $label-spacing;
+}
+
+#password-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: $label-spacing;
+}
+
+#form-password {
+
+}
+
+label {
+  margin: 0 .75rem;
+}
